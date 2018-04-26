@@ -1,0 +1,19 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+@import "general";
+
+//Components
+@import "comonents/background";
+@import "comonents/footer";
+@import "comonents/form";
+@import "comonents/gallery";
+@import "comonents/list";
+@import "comonents/navigation";
+@import "comonents/section";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';

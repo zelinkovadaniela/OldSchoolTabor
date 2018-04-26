@@ -1,0 +1,22 @@
+@import "../variables";
+
+.section_about {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section_aboutItem {
+  text-align: center;
+  padding: 30px;
+  margin: 27.5px 0;
+  flex: 1 0 50%;
+  background: linear-gradient(to right, $primary-bg-color , darken($primary-bg-color, 15%));
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.section_aboutPerex {
+  margin-bottom: 35px;
+  text-align: center;
+}

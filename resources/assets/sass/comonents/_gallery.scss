@@ -1,0 +1,50 @@
+@import "../variables";
+
+.gallery__wrapper {
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery__imgWrapper {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  display: inline-flex;
+  margin: 0 5px 5px 0;
+  position: relative;
+
+  &:hover {
+    .gallery_img {
+      transform: scale(1.1);
+      transition: transform .2s ease-in;
+    }
+    .gallery__imgCaption{
+      opacity: 1;
+      visibility: visible;
+      transition: opacity, visibility .2s ease-in;
+    }
+  }
+}
+
+.gallery__imgCaption {
+  color: $primary-bg-color;
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  bottom: 0;
+  left:0;
+  text-align: center;
+  opacity: 0;
+  width: 100%;
+  z-index: 10;
+  font-size: 11px;
+  visibility: hidden;
+  transition: opacity, visibility .2s ease-in;
+}
+.gallery_img {
+  width: 100%;
+  height: 100%;
+  transition: transform .2s ease-in;
+}

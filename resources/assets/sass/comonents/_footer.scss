@@ -1,0 +1,33 @@
+@import "../variables";
+
+.footer {
+  background-color: $primary-bg-color;
+  height: 110px;
+  overflow: hidden;
+
+  a {
+    color: #333;
+  }
+}
+.footer_linksWrapper {
+  position: relative;
+
+}
+.footer_links {
+  display: flex;
+  right: 0;
+  bottom: 5px;
+  justify-content: flex-end;
+
+  li {
+    margin-right: 5px;
+    padding: 0 5px;
+    background: rgba(0,0,0,0.5);
+  }
+  a {
+    color: #F8EFBA;
+    &:hover {
+      color: #F8EFBA;
+    }
+  }
+}
