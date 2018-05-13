@@ -20,7 +20,7 @@ class Header extends Component {
       <div className="navbar navbar-default navbar-fixed-top navbar navbar-expand-xl">
         <div className="container">
           <div className="navbar-header">
-            <Link to="/" className="navbar-brand">Tábor</Link>
+            <Link to="/" className="navbar-brand">tenkrát na táboře</Link>
             <button className="navbar-toggler" type="button" onClick={this.toggleCollapse.bind(this)}>
               <span className="sr-only">Toggle Navigation</span>
               <span className="icon-bar"></span>

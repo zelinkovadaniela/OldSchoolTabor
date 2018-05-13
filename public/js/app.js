@@ -65905,7 +65905,7 @@ var Header = function (_Component) {
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               __WEBPACK_IMPORTED_MODULE_1_react_router__["c" /* Link */],
               { to: "/", className: "navbar-brand" },
-              "T\xE1bor"
+              "tenkr\xE1t na t\xE1bo\u0159e"
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               "button",
@@ -66041,7 +66041,7 @@ var Footer = function (_React$Component) {
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   __WEBPACK_IMPORTED_MODULE_1_react_router__["c" /* Link */],
                   { to: "tabor" },
-                  "t\xE1bor"
+                  "o t\xE1bo\u0159e"
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -66050,7 +66050,16 @@ var Footer = function (_React$Component) {
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   __WEBPACK_IMPORTED_MODULE_1_react_router__["c" /* Link */],
                   { to: "vedeni" },
-                  "veden\xED"
+                  "o n\xE1s"
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  __WEBPACK_IMPORTED_MODULE_1_react_router__["c" /* Link */],
+                  { to: "galerie" },
+                  "galerie"
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -66070,17 +66079,30 @@ var Footer = function (_React$Component) {
                   { to: "kontakt" },
                   "kontakt"
                 )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "li",
-                null,
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  __WEBPACK_IMPORTED_MODULE_1_react_router__["c" /* Link */],
-                  { to: "galerie" },
-                  "galerie"
-                )
               )
             )
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "footer_iconsAuthor font_basic" },
+          "Icons made by ",
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "a",
+            { href: "https://www.flaticon.com/authors/kiranshastry", title: "Kiranshastry" },
+            "Kiranshastry"
+          ),
+          " from ",
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "a",
+            { href: "https://www.flaticon.com/", title: "Flaticon" },
+            "www.flaticon.com"
+          ),
+          " is licensed by ",
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "a",
+            { href: "http://creativecommons.org/licenses/by/3.0/", title: "Creative Commons BY 3.0", target: "_blank" },
+            "CC 3.0 BY"
           )
         )
       );
@@ -66402,7 +66424,35 @@ var Subscription = function (_Component) {
                         null,
                         'po\u010Det osob'
                       ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { name: 'numberOfPeople', type: 'text', className: 'form-control', onChange: this.handleChangePeople })
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'select',
+                        { name: 'numberOfPeople', type: 'text', className: 'form-control', onChange: this.handleChangePeople },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'option',
+                          { value: '1' },
+                          '1'
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'option',
+                          { value: '2' },
+                          '2'
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'option',
+                          { value: '3' },
+                          '3'
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'option',
+                          { value: '4' },
+                          '4'
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'option',
+                          { value: '5' },
+                          '5'
+                        )
+                      )
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                       'div',
@@ -66518,24 +66568,6 @@ var AboutCamp = function (_Component) {
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 "a",
-                { href: "#whatMore" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "p",
-                  null,
-                  "na co se je\u0161t\u011B t\u011B\u0161it?"
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "#where" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "p",
-                  null,
-                  "kde to bude?"
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
                 { href: "#whatIncluded" },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   "p",
@@ -66558,7 +66590,7 @@ var AboutCamp = function (_Component) {
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   "p",
                   null,
-                  "kdy, kdo a za kolik?"
+                  "fakta"
                 )
               )
             )
@@ -66571,21 +66603,11 @@ var AboutCamp = function (_Component) {
             "div",
             { className: "main_contentWrapper" },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "h2",
-              { className: "heading2" },
-              "n\xE1\u0161 t\xE1bor"
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "p",
-              { className: "section_aboutPerex" },
-              "T\xE1bor organizuje parta mlad\xFDch zap\xE1len\xFDch lid\xED a v\u0161ichni si moc dob\u0159e pamatuj\xED mlad\xE1 l\xE9ta str\xE1ven\xE1 na t\xE1borech. Tam sme v\u0161ichni zapomn\u011Bli na starosti v\u0161edn\xEDch dn\xED. Mohli jsme se p\u0159en\xE9st do jin\xFDch dob, st\xE1t se n\u011Bk\xFDm jin\xFDm, na p\xE1r dn\xED. V neposledn\xED \u0159ad sme spoznali spoustu nov\xFDch kamar\xE1d\u016F a za\u017Eili nespo\u010Det skv\u011Bl\xFDch chvil. A tak pro\u010D se tam na chv\xEDlu nevr\xE1tit zp\u011Bt..."
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               "div",
               { className: "section_about" },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 "div",
-                { className: "section_aboutItem", id: "whatToExpect" },
+                { className: "section_aboutItem odd", id: "whatToExpect" },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   "h3",
                   { className: "heading3" },
@@ -66625,28 +66647,6 @@ var AboutCamp = function (_Component) {
                     "li",
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      "button",
-                      { className: "btn" },
-                      "cel\xFD popis"
-                    )
-                  )
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "div",
-                { className: "section_aboutItem", id: "whatMore" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "h3",
-                  { className: "heading3" },
-                  "na co se je\u0161t\u011B t\u011B\u0161it:"
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "ul",
-                  { className: "section_aboutList" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "li",
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                       "span",
                       null,
                       "na \u017Eivou muziku"
@@ -66660,79 +66660,12 @@ var AboutCamp = function (_Component) {
                       null,
                       "na v\xFDborn\xE9 j\xEDdlo od kluk\u016F z Waipawa"
                     )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "li",
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      "span",
-                      null,
-                      "...na n\xE1vrat do d\u011Btsk\xFDch let"
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "li",
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      "button",
-                      { className: "btn" },
-                      "cel\xFD popis"
-                    )
                   )
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 "div",
-                { className: "section_aboutItem", id: "where" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "h3",
-                  { className: "heading3" },
-                  "kde to bude:"
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "ul",
-                  { className: "section_aboutList" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "li",
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      "span",
-                      null,
-                      "St\u0159edisko Nad\u011Bje se nach\xE1z\xED v kr\xE1sn\xE9 p\u0159\xEDrod\u011B CHKO \u017Dd\xE1rsk\xE9 vrchy"
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "li",
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      "span",
-                      null,
-                      "rybn\xEDk Chochol je 10 minut ch\u016Fze"
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "li",
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      "span",
-                      null,
-                      "v are\xE1lu je fotbalov\xE9 a volejbalov\xE9 h\u0159i\u0161t\u011B, ohni\u0161t\u011B, ping-pong a stoln\xED fotb\xE1lek."
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "li",
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      "button",
-                      { className: "btn" },
-                      "cel\xFD popis"
-                    )
-                  )
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "div",
-                { className: "section_aboutItem", id: "whatIncluded" },
+                { className: "section_aboutItem even", id: "whatIncluded" },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   "h3",
                   { className: "heading3" },
@@ -66747,7 +66680,7 @@ var AboutCamp = function (_Component) {
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                       "span",
                       null,
-                      "ubytov\xE1n\xED v chatk\xE1ch (4, 5 l\u016F\u017Ekov\xE9)"
+                      "ubytov\xE1n\xED v chatk\xE1ch (4 l\u016F\u017Ekov\xE9)"
                     )
                   ),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -66772,16 +66705,16 @@ var AboutCamp = function (_Component) {
                     "li",
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      "button",
-                      { className: "btn" },
-                      "cel\xFD popis"
+                      "span",
+                      null,
+                      "v p\u0159\xEDpad\u011B pot\u0159eby tak\xE9 zaji\u0161t\u011Bn\xED dopravy z n\xE1dra\u017E\xED do t\xE1bora"
                     )
                   )
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 "div",
-                { className: "section_aboutItem", id: "whatExcluded" },
+                { className: "section_aboutItem odd", id: "whatExcluded" },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   "h3",
                   { className: "heading3" },
@@ -66816,25 +66749,16 @@ var AboutCamp = function (_Component) {
                       null,
                       "konzumace na baru"
                     )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "li",
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      "button",
-                      { className: "btn" },
-                      "cel\xFD popis"
-                    )
                   )
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 "div",
-                { className: "section_aboutItem", id: "whenHowMuch" },
+                { className: "section_aboutItem even", id: "whenHowMuch" },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   "h3",
                   { className: "heading3" },
-                  "kdy, kdo a za kolik:"
+                  "fakta:"
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   "ul",
@@ -66845,7 +66769,7 @@ var AboutCamp = function (_Component) {
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                       "span",
                       null,
-                      "term\xEDn: 11. - 16.z\xE1\u0159\xED 2018"
+                      "term\xEDn: 4. - 9.z\xE1\u0159\xED 2018"
                     )
                   ),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -66864,15 +66788,6 @@ var AboutCamp = function (_Component) {
                       "span",
                       null,
                       "cena: 4900,- K\u010D/osobu/5noc\xED"
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "li",
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      "button",
-                      { className: "btn" },
-                      "cel\xFD popis"
                     )
                   )
                 )
@@ -66941,7 +66856,282 @@ var Aboutus = function (_Component) {
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           "div",
           { className: "container" },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "main_contentWrapper" })
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "div",
+            { className: "main_contentWrapper" },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "section_about section_aboutUs" },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "div",
+                { className: "section_aboutItem odd", id: "whatIncluded" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "h3",
+                  { className: "heading3" },
+                  "stejsky"
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "ul",
+                  { className: "section_aboutList" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "li",
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "span",
+                      null,
+                      "hlavn\xED vedouc\xED"
+                    )
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "li",
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "span",
+                      null,
+                      "Stejsky r\xE1d ignoruje konvence a docela dob\u0159e se jim v\xFDh\xFDb\xE1. Je to siln\xFD flegmatik, ale kdy\u017E ho n\u011Bco \u0161tve flegmatizmus dob\u0159e maskuje. Ni\u010Deho se neboj\xED a r\xE1d os ob\u011B tvrd\xED, \u017Ee nezn\xE1 bolest a v\u017Edy m\xE1 pravdu. Stejsky je DJ, ale nen\xED Jukebox(na t\xE1bo\u0159e v\xE1m r\xE1d zahraje dle jeho libosti). "
+                    )
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "person_img stejsky_img" }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "div",
+                { className: "section_aboutItem odd", id: "whatToExpect" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "h3",
+                  { className: "heading3" },
+                  "danka"
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "ul",
+                  { className: "section_aboutList" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "li",
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "span",
+                      null,
+                      "vedouc\xED"
+                    )
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "li",
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "span",
+                      null,
+                      "Danka je \u017Eivel. R\xE1da rozd\xE1v\xE1 \xFAsm\u011Bvy, ale tak\xE9 si neodpust\xED sarkastick\xE9 pozn\xE1mky. Miluje sport(krom\u011B b\u011Bh\xE1n\xED, to je pro n\xED peklo :D), dobr\xE9 j\xEDdlo a zvi\u0159\xE1tk\xE1. Zved\xE1 t\u011B\u017Ek\xE9 v\xE1hy a neboj\xED se zkou\u0161et nov\xE9 v\u011Bci. V re\xE1ln\xE9m \u017Eivot\u011B je Danka program\xE1torkou."
+                    )
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "person_img danka_img" }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "div",
+                { className: "section_aboutItem odd", id: "whatExcluded" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "h3",
+                  { className: "heading3" },
+                  "tereza"
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "ul",
+                  { className: "section_aboutList" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "li",
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "span",
+                      null,
+                      "vedouc\xED"
+                    )
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "li",
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "span",
+                      null,
+                      "Tereza je infantiln\xED cholerik, kter\xFD m\xE1 r\xE1d p\u0159\xEDrodu - takovou tu hezkou, ne\u0161pinavou p\u0159\xEDrodu. Ale dok\xE1\u017Ee si poradit v ka\u017Ed\xE9 situaci, i kdy\u017E nem\xE1 po ruce zrovna Savo. Jej\xED v\xE1\u0161n\xED jsou hlavn\u011B zv\u011B\u0159 a lid\xE9. Paniku dok\xE1\u017Ee rychle zamaskovat vedoucovsk\xFDm v\xFDrazem. Mluv\xED \u010Dasto sprost\u011B (proto nesm\xED jezdit na t\xE1bory pro d\u011Bti), v\u011Bt\u0161inou v\u0161ak opr\xE1vn\u011Bn\u011B (tvrd\xED to)."
+                    )
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "person_img tereza_img" }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "div",
+                { className: "section_aboutItem odd", id: "whenHowMuch" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "h3",
+                  { className: "heading3" },
+                  "mla\u010Fas"
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "ul",
+                  { className: "section_aboutList" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "li",
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "span",
+                      null,
+                      "vedouc\xED"
+                    )
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "li",
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "span",
+                      null,
+                      "Mla\u010Fas je nenapraviteln\xFD optimista a nezdoln\xFD romantik. M\xE1 r\xE1d p\u0159\xEDrodu (takovou tu \u0161pinavou, co ji nikdo nemyje Savem), srny a Terezku. V l\xE9t\u011B ho m\u016F\u017Eete \u010Dasto potkat s batohem na z\xE1dech nebo sp\xEDc\xEDho v list\xED p\u0159i p\u011B\u0161in\u011B. Michal je oproti sv\xE9mu loupe\u017Enick\xE9mu vzez\u0159en\xED vesel\xFD chlap\xEDk se zlat\xFDm srdcem na dlani."
+                    )
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "person_img mladas_img" }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "div",
+                { className: "section_aboutItem odd", id: "whatIncluded" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "h3",
+                  { className: "heading3" },
+                  "kom\xE1r"
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "ul",
+                  { className: "section_aboutList" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "li",
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "span",
+                      null,
+                      "vedouc\xED"
+                    )
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "li",
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", null)
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "person_img komar_img" }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "div",
+                { className: "section_aboutItem odd", id: "whatIncluded" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "h3",
+                  { className: "heading3" },
+                  "michal"
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "ul",
+                  { className: "section_aboutList" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "li",
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "span",
+                      null,
+                      "vedouc\xED"
+                    )
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "li",
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", null)
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "person_img michal_img" }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "div",
+                { className: "section_aboutItem odd", id: "whatIncluded" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "h3",
+                  { className: "heading3" },
+                  "r\xE9zina"
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "ul",
+                  { className: "section_aboutList" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "li",
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "span",
+                      null,
+                      "vedouc\xED a zdravotnice"
+                    )
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "li",
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", null)
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "person_img rezina_img" }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "div",
+                { className: "section_aboutItem odd", id: "whatIncluded" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "h3",
+                  { className: "heading3" },
+                  "donny"
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "ul",
+                  { className: "section_aboutList" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "li",
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "span",
+                      null,
+                      "hlavn\xED kucha\u0159"
+                    )
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "li",
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", null)
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "person_img donny_img" }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "div",
+                { className: "section_aboutItem odd", id: "whatIncluded" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "h3",
+                  { className: "heading3" },
+                  "l\xE1\u010Fa"
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "ul",
+                  { className: "section_aboutList" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "li",
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "span",
+                      null,
+                      "2. hlavn\xED kucha\u0159"
+                    )
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "li",
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", null)
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "person_img lada_img" })
+            )
+          )
         )
       );
     }
@@ -67004,7 +67194,133 @@ var Contact = function (_Component) {
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           "div",
           { className: "container" },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "main_contentWrapper" })
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "div",
+            { className: "main_contentWrapper" },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "ul",
+              null,
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "h2",
+                  null,
+                  "Daniela Zelinkov\xE1"
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "h3",
+                  null,
+                  "provozovatel"
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "span",
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "a",
+                    { href: "mailto:danka@tenkratnatabore.cz?bcc=radim@tenkratnatabore.cz" },
+                    "danka@tenkratnatabore.cz"
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "span",
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "a",
+                    { href: "tel:+420774183924" },
+                    "+420 774 183 924"
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "span",
+                  null,
+                  "I\u010C: 05678251"
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "span",
+                  null,
+                  "28.pluku 23"
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "span",
+                  null,
+                  "10100 Praha 10"
+                )
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "ul",
+              null,
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "h2",
+                  null,
+                  "Radim Stejskal"
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "h3",
+                  null,
+                  "hlavn\xED vedouc\xED"
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "span",
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "a",
+                    { href: "mailto:radim@tenkratnatabore.cz?bcc=danka@tenkratnatabore.cz" },
+                    "radim@tenkratnatabore.cz"
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "span",
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "a",
+                    { href: "tel:+420776188931" },
+                    "+420 776 188 931"
+                  )
+                )
+              )
+            )
+          )
         )
       );
     }
@@ -67022,6 +67338,7 @@ var Contact = function (_Component) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router__ = __webpack_require__(25);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -67029,6 +67346,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
 
 
 
@@ -67059,7 +67377,7 @@ var Homepage = function (_Component) {
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 "h1",
                 { className: "heading" },
-                "t\xE1bor"
+                "tenkr\xE1t na t\xE1bo\u0159e"
               )
             )
           )
@@ -67067,7 +67385,80 @@ var Homepage = function (_Component) {
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           "div",
           { className: "container" },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "main_contentWrapper" })
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "div",
+            { className: "main_contentWrapper" },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "text-center homepage_contentWrapper" },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "h2",
+                null,
+                "V\xEDtejte na str\xE1nk\xE1ch t\xE1bora pro dosp\u011Bl\xE9!"
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "ul",
+                { className: "homepage_upperContent" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "li",
+                  { className: "f-20" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "span",
+                    { className: "font_lobster" },
+                    "datum kon\xE1n\xED: "
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "em",
+                    { className: "f-24" },
+                    "4. - 9.z\xE1\u0159\xED 2018"
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "li",
+                  { className: "f-20" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "span",
+                    { className: "font_lobster" },
+                    "m\xEDsto kon\xE1n\xED: "
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "em",
+                    { className: "f-24" },
+                    "are\xE1l kempu v Cicho\u0159ic\xEDch"
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "li",
+                  { className: "f-20" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "span",
+                    { className: "font_lobster" },
+                    "podm\xEDnky \xFA\u010Dasti: "
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "em",
+                    { className: "f-24" },
+                    "25 let a v\xEDce a chu\u0165 vr\xE1tit se do d\u011Btsk\xFDch let"
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "div",
+                { className: "font_basic mt-5" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "span",
+                  null,
+                  "Jsme parta mlad\xFDch 30tn\xEDk\u016F, kte\u0159\xED se nadchli pro n\xE1pad uspo\u0159\xE1dat t\xE1bor. T\xE1bor pro dosp\u011Bl\xE9. Pro dosp\u011Bl\xE9, co maj\xED chu\u0165 se vr\xE1tit do d\u011Btsk\xFDch let a znova str\xE1vit p\xE1r dn\xED mimo civilizaci s ostatn\xEDma nad\u0161encama. Pobavit se, zasout\u011B\u017Eit si, a na chv\xEDlu oml\xE1dnout. Jestli v\xE1s tenhle n\xE1pad t\u011B\u0161\xED tolik jako n\xE1s, p\u0159ihl\xE1sit se m\u016F\u017Eete ",
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    __WEBPACK_IMPORTED_MODULE_1_react_router__["c" /* Link */],
+                    { to: "/prihlaska" },
+                    "zde"
+                  ),
+                  "."
+                )
+              )
+            )
+          )
         )
       );
     }
@@ -71514,161 +71905,47 @@ exports.default = !!(typeof window !== 'undefined' && window.document && window.
 
 "use strict";
 var images = [{
-  caption: "příjezdová cesta",
-  alt: "příjezdová cesta",
-  orientation: "landscape",
-  src: "/images/camp/tabor-nadeje3.jpg",
-  thumbnail: "/images/camp/tabor-nadeje3.jpg"
-}, {
-  caption: "hlavní budova - od ohniště",
-  alt: "hlavní budova - od ohniště",
-  orientation: "landscape",
-  src: "/images/camp/tabor-nadeje5.jpg",
-  thumbnail: "/images/camp/tabor-nadeje5.jpg"
-}, {
-  caption: "areál - od fotbalového hřiště",
-  alt: "areál - od fotbalového hřiště",
-  orientation: "landscape",
-  src: "/images/camp/tabor-nadeje4.jpg",
-  thumbnail: "/images/camp/tabor-nadeje4.jpg"
-}, {
   caption: "hlavní budova",
   alt: "hlavní budova",
   orientation: "landscape",
-  src: "/images/camp/tabor-nadeje12.jpg",
-  thumbnail: "/images/camp/tabor-nadeje12.jpg"
-}, {
-  caption: "areál - od fotbalového hřiště",
-  alt: "areál - od fotbalového hřiště",
-  orientation: "landscape",
-  src: "/images/camp/tabor-nadeje2.jpg",
-  thumbnail: "/images/camp/tabor-nadeje2.jpg"
-}, {
-  caption: "areál - chatky",
-  alt: "areál - chatky",
-  orientation: "square",
-  src: "/images/camp/tabor-nadeje1.jpg",
-  thumbnail: "/images/camp/tabor-nadeje1.jpg"
-}, {
-  caption: "areál - chatky",
-  alt: "areál - chatky",
-  orientation: "landscape",
-  src: "/images/camp/tabor-nadeje6.jpg",
-  thumbnail: "/images/camp/tabor-nadeje6.jpg"
-}, {
-  caption: "ohniště",
-  alt: "ohniště",
-  orientation: "landscape",
-  src: "/images/camp/tabor-nadeje14.jpg",
-  thumbnail: "/images/camp/tabor-nadeje14.jpg"
-}, {
-  caption: "jídelna",
-  alt: "jídelna",
-  orientation: "landscape",
-  src: "/images/camp/tabor-nadeje11.jpg",
-  thumbnail: "/images/camp/tabor-nadeje11.jpg"
-}, {
-  caption: "jídelna",
-  alt: "jídelna",
-  orientation: "landscape",
-  src: "/images/camp/tabor-nadeje13.jpg",
-  thumbnail: "/images/camp/tabor-nadeje13.jpg"
-}, {
-  caption: "terasa",
-  alt: "terasa",
-  orientation: "landscape",
-  src: "/images/camp/tabor-nadeje22.jpg",
-  thumbnail: "/images/camp/tabor-nadeje22.jpg"
+  src: "/images/camp/hlavni-budova.jpg",
+  thumbnail: "/images/camp/hlavni-budova.jpg"
 }, {
   caption: "volejbalové hřiště",
   alt: "volejbalové hřiště",
   orientation: "landscape",
-  src: "/images/camp/tabor-nadeje25.jpg",
-  thumbnail: "/images/camp/tabor-nadeje25.jpg"
+  src: "/images/camp/volejbalove-hriste.jpg",
+  thumbnail: "/images/camp/volejbalove-hriste.jpg"
 }, {
-  caption: "5 lůžkové chatky",
-  alt: "5 lůžkové chatky",
+  caption: "lávka",
+  alt: "lávka",
   orientation: "landscape",
-  src: "/images/camp/tabor-nadeje26.jpg",
-  thumbnail: "/images/camp/tabor-nadeje26.jpg"
+  src: "/images/camp/lavka.jpg",
+  thumbnail: "/images/camp/lavka.jpg"
 }, {
-  caption: "5 lůžková chatka - přízemí",
-  alt: "5 lůžková chatka - přízemí",
+  caption: "pohled od chatek",
+  alt: "pohled od chatek",
   orientation: "landscape",
-  src: "/images/camp/tabor-nadeje8.jpg",
-  thumbnail: "/images/camp/tabor-nadeje8.jpg"
+  src: "/images/camp/pohled-od-chatek.jpg",
+  thumbnail: "/images/camp/pohled-od-chatek.jpg"
 }, {
-  caption: "5 lůžková chatka - poschodí",
-  alt: "5 lůžková chatka - poschodí",
+  caption: "chatky",
+  alt: "chatky",
   orientation: "landscape",
-  src: "/images/camp/tabor-nadeje9.jpg",
-  thumbnail: "/images/camp/tabor-nadeje9.jpg"
+  src: "/images/camp/chatky.jpg",
+  thumbnail: "/images/camp/chatky.jpg"
 }, {
-  caption: "toaleta na chatkách",
-  alt: "toaleta na chatkách",
-  orientation: "landscape",
-  src: "/images/camp/tabor-nadeje10.jpg",
-  thumbnail: "/images/camp/tabor-nadeje10.jpg"
+  caption: "řeka",
+  alt: "řeka",
+  orientation: "square",
+  src: "/images/camp/reka.jpg",
+  thumbnail: "/images/camp/reka.jpg"
 }, {
-  caption: "zděná chatka",
-  alt: "zděná chatka",
+  caption: "louka",
+  alt: "louka",
   orientation: "landscape",
-  src: "/images/camp/tabor-nadeje15.jpg",
-  thumbnail: "/images/camp/tabor-nadeje15.jpg"
-}, {
-  caption: "4 lůžková chatka - přízemí",
-  alt: "4 lůžková chatka - přízemí",
-  orientation: "landscape",
-  src: "/images/camp/tabor-nadeje16.jpg",
-  thumbnail: "/images/camp/tabor-nadeje16.jpg"
-}, {
-  caption: "4 lůžková chatka - předsíň",
-  alt: "4 lůžková chatka - předsíň",
-  orientation: "landscape",
-  src: "/images/camp/tabor-nadeje18.jpg",
-  thumbnail: "/images/camp/tabor-nadeje18.jpg"
-}, {
-  caption: "4 lůžková chatka - poschodí",
-  alt: "4 lůžková chatka - poschodí",
-  orientation: "landscape",
-  src: "/images/camp/tabor-nadeje17.jpg",
-  thumbnail: "/images/camp/tabor-nadeje17.jpg"
-}, {
-  caption: "4 lůžková chatka - koupelna",
-  alt: "4 lůžková chatka - koupelna",
-  orientation: "landscape",
-  src: "/images/camp/tabor-nadeje19.jpg",
-  thumbnail: "/images/camp/tabor-nadeje19.jpg"
-}, {
-  caption: "dřevěné chatky",
-  alt: "dřevěné chatky",
-  orientation: "landscape",
-  src: "/images/camp/tabor-nadeje7.jpg",
-  thumbnail: "/images/camp/tabor-nadeje7.jpg"
-}, {
-  caption: "dřevěné chatky - interiér",
-  alt: "dřevěné chatky - interiér",
-  orientation: "landscape",
-  src: "/images/camp/tabor-nadeje23.jpg",
-  thumbnail: "/images/camp/tabor-nadeje23.jpg"
-}, {
-  caption: "dřevěné chatky - interiér",
-  alt: "dřevěné chatky - interiér",
-  orientation: "landscape",
-  src: "/images/camp/tabor-nadeje24.jpg",
-  thumbnail: "/images/camp/tabor-nadeje24.jpg"
-}, {
-  caption: "společné sprchy",
-  alt: "společné sprchy",
-  orientation: "landscape",
-  src: "/images/camp/tabor-nadeje20.jpg",
-  thumbnail: "/images/camp/tabor-nadeje20.jpg"
-}, {
-  caption: "společné sprchy",
-  alt: "společné sprchy",
-  orientation: "landscape",
-  src: "/images/camp/tabor-nadeje21.jpg",
-  thumbnail: "/images/camp/tabor-nadeje21.jpg"
+  src: "/images/camp/louka.jpg",
+  thumbnail: "/images/camp/louka.jpg"
 }];
 
 /* harmony default export */ __webpack_exports__["a"] = (images);

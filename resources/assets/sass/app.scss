@@ -1,6 +1,11 @@
 
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import url('https://fonts.googleapis.com/css?family=Lobster&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&subset=latin-ext');
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
 
 // Variables
 @import "variables";
@@ -14,6 +19,3 @@
 @import "comonents/list";
 @import "comonents/navigation";
 @import "comonents/section";
-
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';

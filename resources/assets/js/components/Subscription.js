@@ -161,7 +161,13 @@ class Subscription extends Component {
                   <div className="row">
                     <div className="form-group  col-md-6">
                       <label>počet osob</label>
-                      <input name="numberOfPeople" type="text" className="form-control" onChange={this.handleChangePeople}/>
+                      <select name="numberOfPeople" type="text" className="form-control" onChange={this.handleChangePeople}>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
                     </div>
                     <div className="col-md-6">
                   <span className="form-price">
@@ -177,6 +183,9 @@ class Subscription extends Component {
                   </div>
                 </div>
               </div>
+              {
+
+              }
               <div>
               </div>
               <br />

@@ -1,0 +1,12 @@
+.homepage_contentWrapper {
+  max-width: 80%;
+  margin: auto;
+
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+  }
+}
+
+.homepage_upperContent {
+
+}
